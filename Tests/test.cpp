@@ -8,3 +8,6 @@ TEST(MathTest, TwoPlusTwoEqualsFour) {
 TEST(Sanity,checkSanity){
     EXPECT_EQ(1,retun1());
 }
+TEST(Sanity,checkSanityFalse){
+    EXPECT_NE(0,retun1());
+}
